@@ -22,7 +22,7 @@ a {
 
 .menu-container {
     padding: 0 20px;
-    margin-top: 700px;
+    margin-top: 90px;
 }
 
 .menu-content {
@@ -280,20 +280,8 @@ footer {
 }
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("image/pplp.jpg");
-   margin-bottom:5px;
-   display: block;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -o-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   -moz-transform: translate(-50%, -50%);
-   -webkit-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-   text-align: center;
-   max-width: inherit;
+   margin-top:30px;
   }
   
   /* Place text in the middle of the image */
@@ -490,7 +478,7 @@ footer {
         }
 
         .menu-bbooxx{
-            margin-top: 700px;
+            margin-top: 90px;
         }
         
         header ul{
