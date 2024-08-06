@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "image": "image/eesspprreessoo.png",
+        "Ideal Shot": ["7 to 9 gms of coffee dust.", "23 to 30 sec of extraction time.", "30ml extraction quantity."],
+        "Instruction": ["Grind the beans to a fine consistency, similar to table salt.", "Distribute the coffee evenly in the portafilter.", "Use a tamper to press the coffee down with consistent pressure, aiming for a level and firm coffee puck.", "Lock the portafilter into the group head of the espresso machine.", "Place a cup under the portafilter spout.", "Watch the flow of espresso. It should start with a slow, steady stream and then become thicker and more golden in color.", "Once the shot is complete, stop the extraction and serve the espresso immediately."]
+    },
+    {
+        "id": 2,
+        "name": "Doppio",
+        "image": "image/ddooppiioo.png",
+        "Ideal Shot": ["14 to 16 gms of coffee dust.", "23 to 30 sec of extraction time.", "60ml extraction quantity."],
+        "Instruction": ["Grind the beans to a fine consistency, similar to table salt.", "Distribute the coffee evenly in the portafilter.", "Use a tamper to press the coffee down with consistent pressure, aiming for a level and firm coffee puck.", "Lock the portafilter into the group head of the espresso machine.", "Place a cup under the portafilter spout.", "Watch the flow of espresso. It should start with a slow, steady stream and then become thicker and more golden in color.", "Once the shot is complete, stop the extraction and serve the doppio immediately."]
+    },
+    {
+        "id": 3,
+        "name": "Ristretto",
+        "image": "image/rriisstt.png",
+        "Ideal Shot": ["7 to 9 gms of coffee dust.", "15 to 18 sec of extraction time.", "15 to 20ml extraction quantity."],
+        "Instruction": ["Grind the beans to a very fine consistency, finer than espresso.", "Distribute the coffee evenly in the portafilter.", "Use a tamper to press the coffee down with consistent pressure, aiming for a level and firm coffee puck.", "Lock the portafilter into the group head of the espresso machine.", "Place a cup under the portafilter spout.", "Watch the flow of ristretto. It should start with a slow, steady stream and then become thicker and more golden in color.", "Once the shot is complete, stop the extraction and serve the ristretto immediately."]
+    },
+    {
+        "id": 4,
+        "name": "Lungo",
+        "image": "image/A-shot-of-Lungo.png",
+        "Ideal Shot": ["7 to 9 gms of coffee dust.", "23 to 30 sec of extraction time.", "40 to 45ml extraction quantity."],
+        "Instruction": ["Grind the beans to a consistency slightly coarser than espresso.", "Distribute the coffee evenly in the portafilter.", "Use a tamper to press the coffee down with consistent pressure, aiming for a level and firm coffee puck.", "Lock the portafilter into the group head of the espresso machine.", "Place a cup under the portafilter spout.", "Watch the flow of lungo. It should start with a slow, steady stream and then become thicker and more golden in color.", "Once the shot is complete, stop the extraction and serve the lungo immediately."]
+    },
+    {
+        "id": 5,
+        "name": "Americano",
+        "image": "image/americcano.png",
+        "Ideal Shot": ["60% of hot water in serving mug.", "Double shot of espresso."],
+        "Instruction": ["Fill a serving mug with hot water, about 60% of the mug's capacity.", "Prepare a double shot of espresso using the standard espresso method.", "Pour the double shot of espresso over the hot water.", "Serve immediately."]
+    },
+    {
+        "id": 6,
+        "name": "Caffe Latte",
+        "image": "image/llaattaa.png",
+        "Ideal Shot": ["Single shot espresso.", "90% steamed milk.", "10% milk foam with art on top."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a smooth, velvety texture.", "Pour the steamed milk into a cup, leaving some room for foam.", "Add the single shot of espresso.", "Top with a small amount of milk foam and create latte art if desired.", "Serve immediately."]
+    },
+    {
+        "id": 7,
+        "name": "Flat White",
+        "image": "image/fla.png",
+        "Ideal Shot": ["Double shot ristretto.", "95% steamed milk.", "5% milk foam."],
+        "Instruction": ["Prepare a double shot of ristretto using the ristretto method.", "Steam the milk until it reaches a smooth, velvety texture.", "Pour the steamed milk into a cup, leaving a small amount of room for foam.", "Add the double shot of ristretto.", "Top with a thin layer of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 8,
+        "name": "Piccolo Latte",
+        "image": "image/pilo.png",
+        "Ideal Shot": ["Single shot espresso in a 100ml cup.", "60ml steamed milk.", "5ml milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a smooth, velvety texture.", "Pour the single shot of espresso into a 100ml cup.", "Add 60ml of steamed milk.", "Top with 5ml of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 9,
+        "name": "Cappuccino",
+        "image": "image/capp.png",
+        "Ideal Shot": ["Single shot espresso.", "50% steamed milk.", "50% milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a frothy texture.", "Pour the steamed milk into a cup, filling it halfway.", "Add the single shot of espresso.", "Top with an equal amount of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 10,
+        "name": "Cafe Mocha",
+        "image": "image/cfmc.png",
+        "Ideal Shot": ["30ml chocolate sauce.", "Single shot espresso.", "80% steamed milk.", "20% milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a smooth, velvety texture.", "Add 30ml of chocolate sauce to a serving cup.", "Pour the single shot of espresso into the cup and mix well with the chocolate sauce.", "Add the steamed milk, filling the cup about 80% full.", "Top with a layer of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 11,
+        "name": "Caramel Macchiato",
+        "image": "image/ccmcc.png",
+        "Ideal Shot": ["30ml caramel sauce.", "Single shot espresso.", "80% steamed milk.", "20% milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a smooth, velvety texture.", "Add 30ml of caramel sauce to a serving cup.", "Pour the single shot of espresso into the cup and mix well with the caramel sauce.", "Add the steamed milk, filling the cup about 80% full.", "Top with a layer of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 12,
+        "name": "Mocha Madness",
+        "image": "image/mccmd.png",
+        "Ideal Shot": ["15ml chocolate sauce.", "15ml caramel sauce.", "Single shot espresso.", "80% steamed milk.", "20% milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam the milk until it reaches a smooth, velvety texture.", "Add 15ml of chocolate sauce and 15ml of caramel sauce to a serving cup.", "Pour the single shot of espresso into the cup and mix well with the sauces.", "Add the steamed milk, filling the cup about 80% full.", "Top with a layer of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 13,
+        "name": "Espresso Macchiato",
+        "image": "image/espressomach.png",
+        "Ideal Shot": ["Single shot espresso.", "Little part of milk foam."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Steam a small amount of milk until it reaches a frothy texture.", "Pour the single shot of espresso into a serving cup.", "Top with a small dollop of milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 14,
+        "name": "Latte Macchiato",
+        "image": "image/latte-mac.png",
+        "Ideal Shot": ["In a glass of 300ml.", "Filled with steamed milk.", "Shot of espresso on top."],
+        "Instruction": ["Steam the milk until it reaches a smooth, velvety texture.", "Fill a 300ml glass with the steamed milk.", "Prepare a single shot of espresso using the standard espresso method.", "Pour the espresso shot slowly over the steamed milk, allowing it to create a layered effect.", "Serve immediately."]
+    },
+    {
+        "id": 15,
+        "name": "Marocchino",
+        "image": "image/mm.png",
+        "Ideal Shot": ["In a glass of espresso.", "15ml of chocolate sauce.", "Single shot of espresso.", "Dust with cocoa powder.", "Fill with steamed milk."],
+        "Instruction": ["Prepare a single shot of espresso using the standard espresso method.", "Add 15ml of chocolate sauce to a serving glass.", "Pour the single shot of espresso into the glass.", "Dust the top with cocoa powder.", "Fill the glass with steamed milk.", "Serve immediately."]
+    },
+    {
+        "id": 16,
+        "name": "Babychino",
+        "image": "image/baby.png",
+        "Ideal Shot": ["In a cappuccino cup.", "15ml of chocolate sauce.", "Fill with warm frothed milk at 40-45°C."],
+        "Instruction": ["Add 15ml of chocolate sauce to a cappuccino cup.", "Steam the milk until it reaches a frothy texture and is warmed to 40-45°C.", "Fill the cup with the frothed milk.", "Serve immediately."]
+    },
+    {
+        "id": 17,
+        "name": "Hot Chocolate",
+        "image": "image/hch.png",
+        "Ideal Shot": ["30ml chocolate sauce.", "80% steamed milk.", "20% milk foam."],
+        "Instruction": ["Add 30ml of chocolate sauce to a serving cup.", "Steam the milk until it reaches a smooth, velvety texture.", "Pour the steamed milk into the cup, filling it about 80% full.", "Top with a layer of milk foam.", "Stir gently to mix the chocolate sauce with the milk.", "Serve immediately."]
+    }
+]

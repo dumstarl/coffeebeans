@@ -1,0 +1,346 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.mero-image{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 500px;
+    background: url('image/hheerroo-iimm.avif') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    background-color: #333;
+}
+
+.header::before {
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header::after {
+    content: '';
+    top: 0;
+    left: -100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(225, 225, 225, .4), transparent);
+    transition: .5s;
+}
+
+.header:hover::after {
+    left: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 1.15rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    right: 10%;
+    font-size: 2.8rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.container {
+    width: 900px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: xx-large;
+    padding: 20px 0;
+}
+
+.listMilkshake {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listMilkshake .item {
+    background-color: #EEEEE6;
+    border-radius: 20px;
+}
+
+.listMilkshake .item img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.listMilkshake .item h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.listMilkshake .item .price {
+    letter-spacing: 7px;
+    font-size: small;
+}
+
+/* Detail page */
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: left;
+}
+
+.detail .image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.detail .name {
+    font-size: xxx-large;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.detail .price {
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+
+.detail .buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.detail .buttons button {
+    background-color: #eee;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: large;
+}
+
+.detail .buttons svg {
+    width: 15px;
+}
+
+.detail .buttons span {
+    background-color: #555454;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.detail .buttons button:nth-child(2) {
+    background-color: #2F2F2F;
+    color: #eee;
+    box-shadow: 0 10px 20px #2F2F2F77;
+}
+
+.detail .description {
+    font-weight: 300;
+}
+
+/* Tablet */
+@media only screen and (max-width: 992px) {
+    .listMilkshake {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .detail {
+        grid-template-columns: 40% 1fr;
+    }
+    .header {
+        padding: 1.3rem 5%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .listMilkshake {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .detail {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .detail .image img {
+        width: unset;
+        height: 40vh;
+    }
+    .detail .name {
+        font-size: x-large;
+        margin: 0;
+    }
+    .detail .buttons button {
+        font-size: small;
+    }
+    .detail .buttons {
+        justify-content: center;
+    }
+    .icons {
+        display: inline-flex;
+    }
+
+    #check:checked ~ .icons #menu-icon {
+        display: none;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+    #check:checked ~ .icons #close-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(50px);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    #check:checked ~ .navbar {
+        height: 14.7rem;
+        background-color: #333;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        opacity: 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
+
+    #check:checked ~ .navbar a {
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay: calc(.15s * var(--i));
+    }
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 20px
+}
+
+.foot-container {
+    max-width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.brand-name {
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

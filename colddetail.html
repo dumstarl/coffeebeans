@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Detail</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="cold.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="top">
+        <header>
+            <input type ="checkbox" name ="" id ="chk1">
+            <div class="logo"><h1>CoffeeHub</h1></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <div class="menu">
+                    <label for="chk1">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                </div>
+        </header>
+    </div>
+   
+    
+    <div class="container">
+        <div class="title">Cold Coffee</div>
+        <div class="detail">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="content">
+                <h1 class="name"></h1>
+                <h3>Ideal Shot:</h3>
+                <ul class="idealShot"></ul>
+                <h3>Instruction:</h3>
+                <ul class="instruction"></ul>
+            </div>
+        </div>
+
+        <div class="title">Other Cold Brews</div>
+        <div class="listCold"></div>
+    </div>
+
+    <footer>
+        <div class="foot-container">
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>At <span class="brand-name">[CoffeeHub]</span>, we believe that coffee is more than just a beverage—it's an experience. Join us as we share our passion for coffee and invite you to savor the difference in every sip.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Email: coffeehubnp@gmail.com</p>
+                <p>Phone: 9762274586</p>
+                <p>Address: Sinamangal,Kathmandu Nepal</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffeehub. Thankyou for Visiting Us.</p>
+        </div>
+    </footer>
+
+    <script>
+        let colds = null;
+        fetch('colds.json')
+            .then(response => response.json())
+            .then(data => {
+                colds = data;
+                showDetail();
+            });
+
+        function showDetail() {
+            let detail = document.querySelector('.detail');
+            let listCold = document.querySelector('.listCold');
+            let coldId = new URLSearchParams(window.location.search).get('id');
+            let thisCold = colds.find(value => value.id == coldId);
+
+            if (!thisCold) {
+                window.location.href = "/";
+                return;
+            }
+
+            detail.querySelector('.image img').src = thisCold.image;
+            detail.querySelector('.name').innerText = thisCold.name;
+            let idealShotList = thisCold["Ideal Shot"].map(item => `<li>${item}</li>`).join('');
+            let instructionList = thisCold["Instruction"].map(item => `<li>${item}</li>`).join('');
+            detail.querySelector('.idealShot').innerHTML = idealShotList;
+            detail.querySelector('.instruction').innerHTML = instructionList;
+
+            colds.filter(value => value.id != coldId).forEach(cold => {
+                let newCold = document.createElement('a');
+                newCold.href = 'colddetail.html?id=' + cold.id;
+                newCold.classList.add('item');
+                newCold.innerHTML = 
+                `<img src="${cold.image}" alt="">
+                <h2>${cold.name}</h2>`;
+                listCold.appendChild(newCold);
+            });
+        }
+    </script>
+</body>
+</html>

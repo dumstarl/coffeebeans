@@ -1,0 +1,214 @@
+[
+    {
+        "id": 1,
+        "name": "Iced Americano",
+        "image": "image/cc1.png",
+        "Ideal Shot": ["60ml of espresso (double shot)", "180ml cold water", "Ice cubes"],
+        "Instruction": ["Brew a double shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold water to taste.", "Serve immediately."]
+    },
+    {
+        "id": 2,
+        "name": "Iced Latte",
+        "image": "image/llaacc.png",
+        "Ideal Shot": ["60ml espresso (dingle shot)", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold milk and stir.", "Serve immediately."]
+    },
+    {
+        "id": 3,
+        "name": "Iced Mocha",
+        "image": "image/iced-mocha1.png",
+        "Ideal Shot": ["60ml espresso (double shot)", "30ml chocolate syrup", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Mix the chocolate syrup with the espresso.", "Fill a glass with ice cubes.", "Pour the chocolate-espresso mix over the ice.", "Add cold milk and stir.", "Serve immediately."]
+    },
+    {
+        "id": 4,
+        "name": "Iced Caramal Macchiato",
+        "image": "image/caramal-m1.png",
+        "Ideal Shot": ["60ml espresso (double shot)", "30ml Caramal syrup", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Fill a glass with ice cubes.", "Pour cold milk over the ice, filling the glass about three-quarters full.", "Drizzle caramel sauce around the inside of the glass.", "Brew a shot of espresso and pour it gently over the milk and ice.", "Drizzle more caramel sauce on top if desired.", "Serve immediately."]
+    },
+    {
+        "id": 5,
+        "name": "Iced Mocha Maddness",
+        "image": "image/iced-mocha-maddness.png",
+        "Ideal Shot":  ["60ml espresso (double shot)", "15ml Caramal syrup", "15ml Chocolate syrup","180ml cold milk", "Ice cubes"],
+        "Instruction": ["Fill a glass with ice cubes.", "Pour cold milk over the ice, filling the glass about three-quarters full.", "Add 15ml of chocolate syrup and 15ml of caramel syrup to the milk and stir gently.", "Brew 60ml of espresso and pour it over the milk and ice.", "Top with whipped cream and drizzle more chocolate and caramel syrup on top if desired.", "Serve immediately."]
+    },
+    {
+        "id": 6,
+        "name": "Iced Cappuccino",
+        "image": "image/iced-cap1.png",
+        "Ideal Shot": ["60ml espresso (single shot)", "90ml cold milk", "90ml milk foam", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold milk.", "Top with milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 7,
+        "name": "Ice Blender Oreo Frappe",
+        "image": "image/ore.png",
+        "Ideal Shot": [
+            "60ml espresso (Double shot)",
+            "240ml cold milk",
+            "3 Oreo cookies",
+            "30ml chocolate syrup",
+            "1 scoop ice cubes",
+            "Whipped cream for topping",
+            "Crushed Oreos for garnish"
+        ],
+        "Instruction": [
+            "Brew a double shot of espresso and let it cool.",
+            "In a blender, add the cold milk, Oreo cookies, chocolate syrup, ice cubes, and the cooled espresso.",
+            "Blend until smooth and creamy.",
+            "Pour the mixture into a tall glass.",
+            "Top with whipped cream and garnish with crushed Oreos.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Iced Blended Coffee Frappe",
+        "image": "image/cofp.png",
+        "Ideal Shot": [
+            "60ml espresso (double shot)",
+            "240ml cold milk",
+            "2 tablespoons sugar",
+            "1 scoop ice cubes",
+            "2 tablespoons chocolate syrup (optional)",
+            "Whipped cream for topping",
+            "Chocolate shavings for garnish (optional)"
+        ],
+        "Instruction": [
+            "Brew a double shot of espresso and let it cool.",
+            "In a blender, add the cold milk, sugar, ice cubes, chocolate syrup (if using), and the cooled espresso.",
+            "Blend until smooth and creamy.",
+            "Pour the mixture into a tall glass.",
+            "Top with whipped cream and garnish with chocolate shavings (if using).",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Iced Blended Mocha Frappe",
+        "image": "image/moc.png",
+        "Ideal Shot": [
+            "60ml espresso (double shot)",
+            "240ml cold milk",
+            "2 tablespoons sugar",
+            "2 tablespoons cocoa powder",
+            "1 scoop ice cubes",
+            "2 tablespoons chocolate syrup",
+            "Whipped cream for topping",
+            "Chocolate shavings for garnish"
+        ],
+        "Instruction": [
+            "Brew a double shot of espresso and let it cool.",
+            "In a blender, add the cold milk, sugar, cocoa powder, ice cubes, chocolate syrup, and the cooled espresso.",
+            "Blend until smooth and creamy.",
+            "Pour the mixture into a tall glass.",
+            "Top with whipped cream and garnish with chocolate shavings.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Iced Blended Choco-Mint Frappe",
+        "image": "image/ccm.png",
+        "Ideal Shot": [
+            "60ml espresso (double shot)",
+            "240ml cold milk",
+            "2 tablespoons sugar",
+            "2 tablespoons cocoa powder",
+            "1 scoop ice cubes",
+            "2 tablespoons chocolate syrup",
+            "1/4 teaspoon mint extract",
+            "Whipped cream for topping",
+            "Chocolate shavings for garnish",
+            "Fresh mint leaves for garnish (optional)"
+        ],
+        "Instruction": [
+            "Brew a double shot of espresso and let it cool.",
+            "In a blender, add the cold milk, sugar, cocoa powder, ice cubes, chocolate syrup, mint extract, and the cooled espresso.",
+            "Blend until smooth and creamy.",
+            "Pour the mixture into a tall glass.",
+            "Top with whipped cream and garnish with chocolate shavings and fresh mint leaves (if using).",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Iced Blended Strawberry Frappe",
+        "image": "image/sp.png",
+        "Ideal Shot": [
+            "60ml espresso (double shot)",
+            "240ml cold milk",
+            "2 tablespoons sugar",
+            "1 cup fresh strawberries (hulled and sliced)",
+            "1 scoop ice cubes",
+            "2 tablespoons strawberry syrup",
+            "Whipped cream for topping",
+            "Fresh strawberry slices for garnish"
+        ],
+        "Instruction": [
+            "Brew a double shot of espresso and let it cool.",
+            "In a blender, add the cold milk, sugar, fresh strawberries, ice cubes, strawberry syrup, and the cooled espresso.",
+            "Blend until smooth and creamy.",
+            "Pour the mixture into a tall glass.",
+            "Top with whipped cream and garnish with fresh strawberry slices.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Iced Tea",
+        "image": "image/ipt.png",
+        "Ideal Shot": [
+            "4 cups water",
+            "4 black tea bags",
+            "1/4 cup sugar (optional)",
+            "1 lemon, sliced",
+            "Ice cubes",
+            "Fresh mint leaves for garnish (optional)"
+        ],
+        "Instruction": [
+            "Boil the water in a pot.",
+            "Remove the pot from heat and add the tea bags.",
+            "Let the tea steep for about 5-7 minutes.",
+            "Remove the tea bags and stir in the sugar if desired.",
+            "Let the tea cool to room temperature.",
+            "Fill a pitcher with ice cubes and pour the cooled tea over the ice.",
+            "Add lemon slices to the pitcher.",
+            "Garnish with fresh mint leaves if desired.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Mint Lemonade",
+        "image": "image/ml.png",
+        "Ideal Shot": [
+            "1 cup freshly squeezed lemon juice (about 4-6 lemons)",
+            "1 cup sugar",
+            "5 cups cold water",
+            "1/2 cup fresh mint leaves",
+            "Ice cubes",
+            "Lemon slices for garnish",
+            "Additional mint leaves for garnish"
+        ],
+        "Instruction": [
+            "In a small saucepan, combine 1 cup of water and the sugar.",
+            "Heat the mixture over medium heat, stirring until the sugar is completely dissolved to make a simple syrup.",
+            "Remove the saucepan from heat and let the simple syrup cool to room temperature.",
+            "In a large pitcher, combine the freshly squeezed lemon juice and the simple syrup.",
+            "Add the remaining 4 cups of cold water and stir well.",
+            "Lightly bruise the fresh mint leaves to release their flavor, then add them to the pitcher.",
+            "Stir the mint leaves into the lemonade and let it sit for about 10 minutes to infuse the mint flavor.",
+            "Fill glasses with ice cubes and pour the mint lemonade over the ice.",
+            "Garnish with lemon slices and additional mint leaves.",
+            "Serve immediately."
+        ]
+    }
+    
+    
+    
+    
+   
+]
